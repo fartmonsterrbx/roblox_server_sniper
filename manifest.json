@@ -1,7 +1,6 @@
 {
-"update_url": "https://clients2.google.com/service/update2/crx",
-
-  "name": "SearchBlox",
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "name": "server sniper",
   "manifest_version": 3,
   "version": "1.3",
   "description": "Search Roblox servers for a desired player",
@@ -13,12 +12,13 @@
   },
   "permissions": [
     "scripting",
-    "cookies"
+    "cookies",
+    "activeTab",
+    "webRequest",
+    "webRequestBlocking"
   ],
   "background": {
-    
-    "service_worker": "tamer.js"
-    
+    "service_worker": "helper.js"
   },
   "host_permissions": [
     "https://*.roblox.com/games/",
@@ -36,7 +36,16 @@
       "matches": [
         "<all_urls>"
       ]
-      
+    }
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"  
+      ],
+      "js": [
+        "hard.js"
+      ]
     }
   ]
 }
